@@ -1,0 +1,21 @@
+{
+  "command": [
+    "gh",
+    "repo",
+    "create",
+    "Le0Padill4/divisor_cuenta_web",
+    "--public",
+    "--source",
+    ".",
+    "--remote",
+    "origin",
+    "--push",
+    "--description",
+    "Deber 2 USFQ: migracion Flutter a React con spec identica, SOLID y Vitest"
+  ],
+  "cwd": "/Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta_web",
+  "started_utc": "2026-10-10T03:04:28.306663+00:00",
+  "ended_utc": "2026-10-10T03:04:34.558449+00:00",
+  "duration_seconds": 6.251705665985355,
+  "exit_code": 0
+}

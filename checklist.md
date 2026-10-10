@@ -17,7 +17,7 @@ Se trabajó en Codex; no se afirma haber abierto VS Code ni cronometrado a mano.
 
 ## Checklist literal de entrega con evidencia
 
-- [ ] Los dos proyectos subidos a GitHub (se marcará después de verificar publicación).
+- [X] Los dos proyectos subidos a GitHub; rama predeterminada sdd y remotos verificados.
 - [X] Node.js 22.12 o superior: 24.14.0 observado.
 - [X] Constitution Flutter en .specify/memory/constitution.md.
 - [X] Spec, plan y tareas en specs/001-divisor-cuenta.

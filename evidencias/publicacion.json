@@ -1,0 +1,18 @@
+[
+  {
+    "defaultBranchRef": {
+      "name": "sdd"
+    },
+    "url": "https://github.com/Le0Padill4/divisor_cuenta",
+    "visibility": "PUBLIC",
+    "verified_remote_branch": "4a3fcb53e368d775f6d961d4a21fcae168660445\trefs/heads/sdd"
+  },
+  {
+    "defaultBranchRef": {
+      "name": "sdd"
+    },
+    "url": "https://github.com/Le0Padill4/divisor_cuenta_web",
+    "visibility": "PUBLIC",
+    "verified_remote_branch": "1f3243ac5ae5d05eda1a8d944363b5dd5eab6147\trefs/heads/sdd"
+  }
+]
