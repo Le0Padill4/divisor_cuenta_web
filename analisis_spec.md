@@ -107,7 +107,7 @@ Origen: `.specify/memory/constitution.md` del proyecto Flutter. La columna React
 | C20 · L31 · domain es Dart puro | adaptada en redacción | domain es JavaScript puro | Cambio de lenguaje |
 | C21 · L31 · Sin red | idéntica | Sin red | Mismo requisito offline |
 | C22 · L31 · Sin base de datos | idéntica | Sin base de datos | Mismo alcance |
-| C23 · L32 · No se agregan paquetes externos | reemplazada | Solo React/React DOM y herramientas Vite, ESLint y pruebas exigidas | Las Partes 3 y 7 obligan a instalar paquetes npm |
+| C23 · L32 · No se agregan paquetes externos | reemplazada | Solo React/React DOM y herramientas Vite, Oxlint y pruebas exigidas | Las Partes 3 y 7 obligan a instalar paquetes npm |
 | C24 · L32 · No se agregan secretos | idéntica | No se agregan secretos | Misma seguridad |
 | C25 · L33 · Se usa null safety | reemplazada | Validación explícita de números y ausencia de resultado con null | JavaScript carece de null safety estática de Dart |
 | C26 · L33 · Nombres en español | idéntica | Nombres en español | Misma convención |
@@ -127,7 +127,7 @@ Origen: `.specify/memory/constitution.md` del proyecto Flutter. La columna React
 
 Total Constitution: **39 reglas atómicas**; idéntica: 25; adaptada en redacción: 9; reemplazada: 5.
 
-No se añaden principios SOLID nuevos. DOM explicita el equivalente web de no depender del framework; la lista npm está impuesta por las Partes 3 y 7, y ESLint conserva la comprobación estática existente. El lenguaje y los runners sí requieren reemplazo. No se conserva como idéntica la prohibición absoluta de paquetes externos ni se afirma que JavaScript tenga null safety.
+No se añaden principios SOLID nuevos. DOM explicita el equivalente web de no depender del framework; la lista npm está impuesta por las Partes 3 y 7, y Oxlint conserva la comprobación estática existente. El lenguaje y los runners sí requieren reemplazo. No se conserva como idéntica la prohibición absoluta de paquetes externos ni se afirma que JavaScript tenga null safety.
 
 ## Trabajo personal pendiente
 
