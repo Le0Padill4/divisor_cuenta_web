@@ -100,7 +100,7 @@ No se diseñan endpoints ni persistencia.
 - validarEntrada devuelve un mensaje o null; se llama antes del cálculo. Se conserva
   la prioridad Flutter: monto finito, al menos una persona, propina finita.
 - calcularDivision suma propina y divide; luego llama a estrategia.aplicar(valor).
-- Redondeo exacto: Math.round(valor * 100) / 100. Hacia arriba: Math.ceil(valor).
+- Redondeo exacto: Math.sign(valor) * Math.round(Math.abs(valor) * 100) / 100 (empates como Dart). Hacia arriba: Math.ceil(valor).
 - useDivisor recibe dependencias por argumento y conserva campos/error/resultado con useState.
 - El formulario acepta texto para que abc llegue a validarEntrada; la conversión
   exige personas enteras y no convierte el campo vacío en cero.

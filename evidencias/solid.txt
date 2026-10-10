@@ -1,0 +1,27 @@
+$ git grep -n from 'react' -- src/domain/
+(sin coincidencias)
+codigo de salida: 1; PASS
+
+$ git grep -n redondeoExacto\|redondeoHaciaArriba -- src/
+src/data/redondeoExacto.js:2:export const redondeoExacto = Object.freeze({
+src/data/redondeoHaciaArriba.js:2:export const redondeoHaciaArriba = Object.freeze({
+src/main.jsx:5:import { redondeoExacto } from './data/redondeoExacto.js'
+src/main.jsx:6:import { redondeoHaciaArriba } from './data/redondeoHaciaArriba.js'
+src/main.jsx:14:  estrategias: { exacto: redondeoExacto, arriba: redondeoHaciaArriba },
+codigo de salida: 0; PASS
+
+$ git grep -n instanceof\|=== 'exacto'\|=== 'arriba' -- src/domain/calcularDivision.js
+(sin coincidencias)
+codigo de salida: 1; PASS
+
+$ git grep -n toFixed\|inválido\|al menos una persona -- src/domain/calcularDivision.js
+(sin coincidencias)
+codigo de salida: 1; PASS
+
+$ git grep -En fetch\(|XMLHttpRequest|localStorage|sessionStorage|https?:// -- src/
+(sin coincidencias)
+codigo de salida: 1; PASS
+
+$ git grep -En react|document\.|window\.|/data/ -- src/domain/
+(sin coincidencias)
+codigo de salida: 1; PASS

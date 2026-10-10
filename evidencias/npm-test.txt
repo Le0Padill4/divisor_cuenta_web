@@ -1,0 +1,23 @@
+
+> divisor_cuenta_web@0.0.0 test
+> vitest run --reporter verbose
+
+
+ RUN  v5.0.3 /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta_web
+
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 1. reparto normal 1ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 2. sin propina 0ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 3. cero personas 0ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 4. monto no numerico 0ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 5. redondeo exacto 0ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 6. redondeo hacia arriba 0ms
+ ✓ test/division.test.js > LSP: el mismo cálculo recibe ambas estrategias sin conocer su tipo 0ms
+ ✓ test/pantalla.test.jsx > Pantalla del divisor > 100, 4 y 10: Calcular muestra 27.50 60ms
+ ✓ test/pantalla.test.jsx > Pantalla del divisor > 50 y 0 personas: error literal sin resultado, incluso después de éxito 15ms
+ ✓ test/pantalla.test.jsx > Pantalla del divisor > abc: Calcular muestra Monto inválido y no calcula 6ms
+
+ Test Files  2 passed (2)
+      Tests  10 passed (10)
+   Start at  21:54:53
+   Duration  471ms (environment 67%, tests 11%, setup 9%, transform 8%, import 4%, worker 1%)
+

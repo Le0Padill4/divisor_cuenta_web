@@ -14,7 +14,7 @@
 ## Phase 2: Foundational
 
 - [X] T004 Crear el borrador fiel de test/casosDePrueba.js y advertir que Parte 7.2 exige escritura personal.
-- [ ] T005 Definir contrato de una operación aplicar(valor) en src/domain/estrategiaRedondeo.js.
+- [X] T005 Definir contrato de una operación aplicar(valor) en src/domain/estrategiaRedondeo.js.
 
 ## Phase 3: User Story 1 — Dividir una cuenta (P1)
 
@@ -29,17 +29,17 @@
 
 ### Implementación
 
-- [ ] T009 [P] [US1] Crear src/domain/cuenta.js y resultado.js con monto/personas/porcentajePropina y montoPorPersona.
-- [ ] T010 [US1] Implementar src/domain/validarEntrada.js y calcularDivision.js: monto finito, personas >=1 enteras y propina finita; sumar propina antes de dividir (FR-003/006/007).
-- [ ] T011 [P] [US1] Implementar src/data/redondeoExacto.js y redondeoHaciaArriba.js mediante aplicar(valor), sin modificar cálculo (FR-002/004/005).
-- [ ] T012 [US1] Crear src/presentation/useDivisor.js con useState y dependencias recibidas; crear formateadorMoneda.js con dos decimales (FR-004, SC-002).
-- [ ] T013 [US1] Crear src/presentation/PantallaDivisor.jsx e index.css: monto/personas/propina, selector y resultado en una pantalla (FR-001/002, SC-003).
-- [ ] T014 [US1] Componer solo en src/main.jsx, eliminar recursos de plantilla sin uso y configurar index.html en español (FR-008).
+- [X] T009 [P] [US1] Crear src/domain/cuenta.js y resultado.js con monto/personas/porcentajePropina y montoPorPersona.
+- [X] T010 [US1] Implementar src/domain/validarEntrada.js y calcularDivision.js: monto finito, personas >=1 enteras y propina finita; sumar propina antes de dividir (FR-003/006/007).
+- [X] T011 [P] [US1] Implementar src/data/redondeoExacto.js y redondeoHaciaArriba.js mediante aplicar(valor), sin modificar cálculo (FR-002/004/005).
+- [X] T012 [US1] Crear src/presentation/useDivisor.js con useState y dependencias recibidas; crear formateadorMoneda.js con dos decimales (FR-004, SC-002).
+- [X] T013 [US1] Crear src/presentation/PantallaDivisor.jsx e index.css: monto/personas/propina, selector y resultado en una pantalla (FR-001/002, SC-003).
+- [X] T014 [US1] Componer solo en src/main.jsx, eliminar recursos de plantilla sin uso y configurar index.html en español (FR-008).
 
 ## Phase 4: Validación y entrega
 
-- [ ] T015 Registrar primer npm run build correcto y los 6 casos verdes en evidencias/cronometro.json.
-- [ ] T016 Verificar npm test, npm run lint y los cuatro controles SOLID; no red ni persistencia en src/ (FR-008, SC-001/002/003/004).
+- [X] T015 Registrar primer npm run build correcto y los 6 casos verdes en evidencias/cronometro.json.
+- [X] T016 Verificar npm test, npm run lint y los cuatro controles SOLID; no red ni persistencia en src/ (FR-008, SC-001/002/003/004).
 - [ ] T017 Comparar spec, constituciones, planes y escenarios en evidencias/; completar analisis_spec.md, bitacora.md y respuestas.md.
 - [ ] T018 Comprobar interfaz real en navegador y registrar límites de esa observación en evidencias/browser.md.
 - [ ] T019 Preparar checklist.md con evidencia y pendientes personales; publicar los dos repositorios GitHub.
@@ -66,3 +66,9 @@ suite/revisión y converge. No alterar spec ni test para hacer pasar la implemen
 Las tareas de generar borradores no acreditan los ejercicios personales: el estudiante
 debe realizar/revisar Parte 2 y escribir Parte 7.2. Tampoco se cuenta eso como líneas manuales.
 
+
+## Phase 5: Convergence
+
+- [ ] T020 Completar comparación y respuestas en analisis_spec.md, bitacora.md, respuestas.md y evidencias/ por T017 (missing, MEDIUM).
+- [ ] T021 Guardar observaciones y captura real en evidencias/browser.md por T018 (partial, LOW).
+- [ ] T022 Finalizar checklist.md y publicación verificable de ambos repositorios por T019 (missing, MEDIUM).

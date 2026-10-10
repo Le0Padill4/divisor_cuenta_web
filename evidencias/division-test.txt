@@ -1,0 +1,16 @@
+
+ RUN  v5.0.3 /Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta_web
+
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 1. reparto normal 1ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 2. sin propina 0ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 3. cero personas 0ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 4. monto no numerico 0ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 5. redondeo exacto 0ms
+ ✓ test/division.test.js > Los mismos seis casos de aceptación de Flutter > 6. redondeo hacia arriba 0ms
+ ✓ test/division.test.js > LSP: el mismo cálculo recibe ambas estrategias sin conocer su tipo 0ms
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  21:54:18
+   Duration  361ms (environment 73%, setup 16%, transform 7%, import 3%, worker 1%, tests 1%)
+

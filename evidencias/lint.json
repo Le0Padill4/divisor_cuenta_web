@@ -1,0 +1,12 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "lint"
+  ],
+  "cwd": "/Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta_web",
+  "started_utc": "2026-10-10T02:54:53.050072+00:00",
+  "ended_utc": "2026-10-10T02:54:53.764246+00:00",
+  "duration_seconds": 0.7140215419931337,
+  "exit_code": 0
+}

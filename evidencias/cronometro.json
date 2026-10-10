@@ -2,5 +2,10 @@
   "start_utc": "2026-10-10T02:47:48.810073+00:00",
   "start_monotonic": 136932.080013875,
   "start_event": "Inicio de $speckit-plan ejecutado por Codex",
-  "measurement": "Cronometro automatico del agente; no cronometro personal del estudiante"
+  "measurement": "Cronometro automatico del agente; no cronometro personal del estudiante",
+  "first_build_utc": "2026-10-10T02:54:09.640093+00:00",
+  "minutes_to_first_build": 6.347167,
+  "six_cases_passed_utc": "2026-10-10T02:54:18.650910+00:00",
+  "minutes_to_six_cases": 6.497347283333334,
+  "stop_event": "Fin del primer runner de dominio correcto: seis aceptaci\u00f3n y LSP verdes"
 }

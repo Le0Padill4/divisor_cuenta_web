@@ -1,0 +1,86 @@
+[
+  {
+    "title": "DIP/capas: domain sin React",
+    "command": [
+      "git",
+      "grep",
+      "-n",
+      "from 'react'",
+      "--",
+      "src/domain/"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "stdout": ""
+  },
+  {
+    "title": "DIP: composicion concreta",
+    "command": [
+      "git",
+      "grep",
+      "-n",
+      "redondeoExacto\\|redondeoHaciaArriba",
+      "--",
+      "src/"
+    ],
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "stdout": "src/data/redondeoExacto.js:2:export const redondeoExacto = Object.freeze({\nsrc/data/redondeoHaciaArriba.js:2:export const redondeoHaciaArriba = Object.freeze({\nsrc/main.jsx:5:import { redondeoExacto } from './data/redondeoExacto.js'\nsrc/main.jsx:6:import { redondeoHaciaArriba } from './data/redondeoHaciaArriba.js'\nsrc/main.jsx:14:  estrategias: { exacto: redondeoExacto, arriba: redondeoHaciaArriba },\n"
+  },
+  {
+    "title": "OCP/LSP: sin tipo concreto",
+    "command": [
+      "git",
+      "grep",
+      "-n",
+      "instanceof\\|=== 'exacto'\\|=== 'arriba'",
+      "--",
+      "src/domain/calcularDivision.js"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "stdout": ""
+  },
+  {
+    "title": "SRP: calculo no valida/formatea",
+    "command": [
+      "git",
+      "grep",
+      "-n",
+      "toFixed\\|inválido\\|al menos una persona",
+      "--",
+      "src/domain/calcularDivision.js"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "stdout": ""
+  },
+  {
+    "title": "Offline: sin llamadas ni persistencia",
+    "command": [
+      "git",
+      "grep",
+      "-En",
+      "fetch\\(|XMLHttpRequest|localStorage|sessionStorage|https?://",
+      "--",
+      "src/"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "stdout": ""
+  },
+  {
+    "title": "Domain aislado de React/DOM/data",
+    "command": [
+      "git",
+      "grep",
+      "-En",
+      "react|document\\.|window\\.|/data/",
+      "--",
+      "src/domain/"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "stdout": ""
+  }
+]
