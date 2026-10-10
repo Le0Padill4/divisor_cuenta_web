@@ -1,0 +1,14 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--silent",
+    "--show-error",
+    "http://127.0.0.1:5178/"
+  ],
+  "cwd": "/Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta_web",
+  "started_utc": "2026-10-10T02:51:55.856639+00:00",
+  "ended_utc": "2026-10-10T02:51:55.874436+00:00",
+  "duration_seconds": 0.01769154198700562,
+  "exit_code": 0
+}

@@ -16,8 +16,8 @@ las implementaciones concretas.
 
 **Language/Version**: JavaScript ES modules y JSX; Node.js 24.14.0 (>=22.12), npm 11.9.0.
 
-**Primary Dependencies**: React y React DOM 19.2.x; Vite 8.3.x, plugin React 6.1.x
-y Oxlint 1.81.x de la plantilla. No se usan librerías de estado externas.
+**Primary Dependencies**: React y React DOM 19.3.0 (manifest ^19.2.8); Vite 8.3.4, plugin React 6.1.2
+y Oxlint 1.87.0 de la plantilla. No se usan librerías de estado externas.
 
 **Storage**: Ninguno. No localStorage, cookies, historial, autenticación ni backend.
 

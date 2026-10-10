@@ -7,13 +7,13 @@
 
 ## Phase 1: Setup
 
-- [ ] T001 Comprobar origen Flutter y diff inicial vacío en evidencias/spec-inicial.diff.
-- [ ] T002 Mantener el feature activo en scripts/feature-env.sh y .specify/feature.json.
-- [ ] T003 Configurar dependencias permitidas y scripts en package.json, vite.config.js y test/setup.js.
+- [X] T001 Comprobar origen Flutter y diff inicial vacío en evidencias/spec-inicial.diff.
+- [X] T002 Mantener el feature activo en scripts/feature-env.sh y .specify/feature.json.
+- [X] T003 Configurar dependencias permitidas y scripts en package.json, vite.config.js y test/setup.js.
 
 ## Phase 2: Foundational
 
-- [ ] T004 Crear el borrador fiel de test/casosDePrueba.js y advertir que Parte 7.2 exige escritura personal.
+- [X] T004 Crear el borrador fiel de test/casosDePrueba.js y advertir que Parte 7.2 exige escritura personal.
 - [ ] T005 Definir contrato de una operación aplicar(valor) en src/domain/estrategiaRedondeo.js.
 
 ## Phase 3: User Story 1 — Dividir una cuenta (P1)
@@ -23,9 +23,9 @@
 
 ### Tests antes de implementar
 
-- [ ] T006 [P] [US1] Crear test/division.test.js: bucle de seis casos, validación literal, no calcular errores y LSP sin if/tipos (AC1–AC6, SC-001/004).
-- [ ] T007 [P] [US1] Crear las tres pruebas de test/pantalla.test.jsx con etiquetas y clic; incluir retirar resultado previo (FR-006/007, SC-002).
-- [ ] T008 [US1] Registrar el fallo inicial por ausencia de módulos en evidencias/tests-red.txt sin editar los esperados.
+- [X] T006 [P] [US1] Crear test/division.test.js: bucle de seis casos, validación literal, no calcular errores y LSP sin if/tipos (AC1–AC6, SC-001/004).
+- [X] T007 [P] [US1] Crear las tres pruebas de test/pantalla.test.jsx con etiquetas y clic; incluir retirar resultado previo (FR-006/007, SC-002).
+- [X] T008 [US1] Registrar el fallo inicial por ausencia de módulos en evidencias/tests-red.txt sin editar los esperados.
 
 ### Implementación
 
