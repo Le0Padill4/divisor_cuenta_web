@@ -38,7 +38,7 @@ Se trabajó en Codex; no se afirma haber abierto VS Code ni cronometrado a mano.
 - [X] Domain no importa React (sin coincidencias).
 - [X] Fuera de data, concretas de redondeo solo aparecen en main.jsx.
 - [X] Comparación semántica de seis casos confirmada con script, sin exigir bytes iguales.
-- [X] respuestas.md tiene seis respuestas, bitácora y salidas pegadas.
+- [X] respuestas.md tiene seis respuestas concisas; la bitácora y las salidas se conservan en bitacora.md y evidencias/respuestas-anexo.md.
 
 ## Obligaciones personales que el agente no acredita
 
