@@ -1,0 +1,22 @@
+{
+  "spec-final": {
+    "exit_code": 0,
+    "diff_bytes": 0,
+    "numstat": ""
+  },
+  "constitution": {
+    "exit_code": 1,
+    "diff_bytes": 3499,
+    "numstat": "15\t12\t{../divisor_cuenta/.specify => .specify}/memory/constitution.md"
+  },
+  "plan": {
+    "exit_code": 1,
+    "diff_bytes": 9663,
+    "numstat": "103\t59\t{../divisor_cuenta/specs => specs}/001-divisor-cuenta/plan.md"
+  },
+  "tasks": {
+    "exit_code": 1,
+    "diff_bytes": 7040,
+    "numstat": "59\t27\t{../divisor_cuenta/specs => specs}/001-divisor-cuenta/tasks.md"
+  }
+}

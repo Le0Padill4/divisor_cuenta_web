@@ -40,8 +40,8 @@
 
 - [X] T015 Registrar primer npm run build correcto y los 6 casos verdes en evidencias/cronometro.json.
 - [X] T016 Verificar npm test, npm run lint y los cuatro controles SOLID; no red ni persistencia en src/ (FR-008, SC-001/002/003/004).
-- [ ] T017 Comparar spec, constituciones, planes y escenarios en evidencias/; completar analisis_spec.md, bitacora.md y respuestas.md.
-- [ ] T018 Comprobar interfaz real en navegador y registrar límites de esa observación en evidencias/browser.md.
+- [X] T017 Comparar spec, constituciones, planes y escenarios en evidencias/; completar analisis_spec.md, bitacora.md y respuestas.md.
+- [X] T018 Comprobar interfaz real en navegador y registrar límites de esa observación en evidencias/browser.md.
 - [ ] T019 Preparar checklist.md con evidencia y pendientes personales; publicar los dos repositorios GitHub.
 
 ## Dependencies & Execution Order
@@ -69,6 +69,6 @@ debe realizar/revisar Parte 2 y escribir Parte 7.2. Tampoco se cuenta eso como l
 
 ## Phase 5: Convergence
 
-- [ ] T020 Completar comparación y respuestas en analisis_spec.md, bitacora.md, respuestas.md y evidencias/ por T017 (missing, MEDIUM).
-- [ ] T021 Guardar observaciones y captura real en evidencias/browser.md por T018 (partial, LOW).
+- [X] T020 Completar comparación y respuestas en analisis_spec.md, bitacora.md, respuestas.md y evidencias/ por T017 (missing, MEDIUM).
+- [X] T021 Guardar observaciones y captura real en evidencias/browser.md por T018 (partial, LOW).
 - [ ] T022 Finalizar checklist.md y publicación verificable de ambos repositorios por T019 (missing, MEDIUM).

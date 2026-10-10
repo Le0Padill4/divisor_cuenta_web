@@ -1,0 +1,11 @@
+{
+  "command": [
+    "node",
+    "scripts/comparar-casos.mjs"
+  ],
+  "cwd": "/Users/leonardopadilla/Documents/USFQ/3er Semestre/Progra. Asistida de Apps/Deber2/divisor_cuenta_web",
+  "started_utc": "2026-10-10T02:58:17.148957+00:00",
+  "ended_utc": "2026-10-10T02:58:17.172732+00:00",
+  "duration_seconds": 0.023676832992350683,
+  "exit_code": 0
+}

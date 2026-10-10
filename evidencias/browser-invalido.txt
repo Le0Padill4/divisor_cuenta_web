@@ -1,0 +1,30 @@
+Browser tab: 2, Title: "Divisor de cuenta", URL: "http://127.0.0.1:5178/".
+0 AXWebArea Divisor de cuenta, URL: 127.0.0.1:5178/
+	1 container
+		2 text LA CUENTA, ENTRE TODOS
+		3 heading Divisor de cuenta, Value: 1
+			4 text Divisor de cuenta
+		5 text Incluye la propina y calcula cuánto paga cada persona.
+		6 text Monto total
+		7 text field (settable) Monto total, Value: abc, ID: monto
+		8 text Personas
+		9 text field (settable) Personas, Value: 4, ID: personas
+		10 text Propina (%)
+		11 text field (settable) Propina (%), Value: 0, ID: propina
+		12 text Redondeo
+		13 pop up button (collapsed, settable) Redondeo, Value: Exacto (2 decimales), ID: modo, Secondary Actions: Expand
+			14 menu
+				15 (selected) Exacto (2 decimales)
+				16 Hacia arriba (entero)
+		17 button Calcular
+		30 text Monto inválido
+		18 container Por persona
+			19 heading Por persona, Value: 2, ID: titulo-resultado
+				20 text Por persona
+			27 container
+				28 text Ingresa la cuenta
+				29 text y pulsa Calcular.
+			24 text La propina se suma antes de dividir.
+		25 text El cálculo se realiza en tu dispositivo.
+
+The focused UI element is 17 button Calcular
