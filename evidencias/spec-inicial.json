@@ -1,0 +1,14 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--no-index",
+    "--",
+    "../divisor_cuenta/specs/001-divisor-cuenta/spec.md",
+    "specs/001-divisor-cuenta/spec.md"
+  ],
+  "exit_code": 0,
+  "diff_bytes": 0,
+  "sha256": "36d61f7e911a07eb5d8de81a52b88ac66ae4d1593d12c5a22827e5a46c0046de",
+  "before_plan": true
+}
